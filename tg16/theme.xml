@@ -5,7 +5,7 @@
 	<view name="system, basic, detailed, video">
 
 		<image name="background">
-			<color>8a6fa8</color>
+			<color>f79226</color>
 		</image>
 
 		<image name="logo">
@@ -21,11 +21,11 @@
 	<view name="system">
 
 		<image name="background" extra="true">
-			<color>8a6fa8</color>
+			<color>f79226</color>
 		</image>
 
 		<text name="system_description" extra="true">
-			<text>The Vectrex is a vector display-based home video game console that has an integrated vector monitor. The Vectrex is monochrome and uses plastic screen overlays to simulate color and various static graphics and decorations. At the time, many of the most popular arcade games used vector displays, and through a licensing deal with Cinematronics, GCE was able to produce high-quality versions of arcade games such as Space Wars and Armor Attack.</text>
+			<text>TurboGrafx-16, fully titled as TurboGrafx-16 Entertainment SuperSystem and known in Japan as the PC Engine, is a video game console developed by Hudson Soft and NEC, released in Japan on October 30, 1987, and in North America on August 29, 1989.</text>
 		</text>
 
 		<image name="screenshot_left" extra="true">

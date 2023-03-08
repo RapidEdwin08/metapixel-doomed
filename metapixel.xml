@@ -1,7 +1,14 @@
 <!--
-theme name:		MetaPixel
+theme name:		MetaPixel (D00MED)
+version:		2023.03
+author:			RapidEdwin08
+github :		https://github.com/RapidEdwin08/es-theme-metapixel-doomed
+theme info:		Fork of MetaPixel with Chicago95 Font + Extra Systems including PlayStation3, 3DS, Wii U by precursormar found here: https://www.reddit.com/r/emulation/comments/8tlyty/ive_updated_emulationstations_pixel_theme_by/ 
+
+based on:		MetaPixel
 version:		1.3
 author:			Matt Kennedy
+github :		https://github.com/mattrixk/es-theme-metapixel
 email:			info@cutmonkey.net
 website:		cutmonkey.net
 license:		creative commons CC-BY-NC-SA
@@ -35,33 +42,38 @@ based on:		"Pixel" by Eric Hettervik
 		</image>
 
 		<helpsystem name="help">
-			<textColor>ffffffff</textColor>
-			<iconColor>ffffffff</iconColor>
-			<fontSize>0.018</fontSize>
+			<textColor>d5d5d5ff</textColor>
+			<iconColor>d5d5d5ff</iconColor>
+			<fontSize>0.025</fontSize>
 		</helpsystem>
 
 		<!--
-			There are 5 pixel-based fonts available with this theme. You can change the font by changing "font1.ttf" to "font2.ttf" etc.
+			There are 9 pixel-based fonts available with this theme. You can change the font by changing "font1.ttf" to "font2.ttf" etc.
 			font1.ttf - Pixel-Noir Skinny
 			font2.ttf - SF Pixelate (the default Pixel theme font)
 			font3.ttf - DisposableDroid BB
-			font4.ttf - Press Start 2P
+			font4.ttf - Press Start 2P *Pairs well with Pixel*
 			font5.ttf - Thin Pixel-7
+			font6.ttf - Commodore Pixelized v1.2
+			font7.ttf - digital-7 (mono italic) *fontSize Needs Adjusting*
+			font8.ttf - Early GameBoy
+			font9.ttf - Kemco Pixel Bold
+			fontdos.ttf - Chicago95 Font
 		-->
 		<helpsystem name="help">
-			<fontPath>./art/font1.ttf</fontPath>
+			<fontPath>./art/fontdos.ttf</fontPath>
 		</helpsystem>
 		<text name="system_description" extra="true">
-			<fontPath>./art/font1.ttf</fontPath>
+			<fontPath>./art/fontdos.ttf</fontPath>
 		</text>
 		<textlist name="gamelist">
-			<fontPath>./art/font1.ttf</fontPath>
+			<fontPath>./art/fontdos.ttf</fontPath>
 		</textlist>
 		<text name="md_lbl_players, md_players, md_genre, md_developer, md_publisher, md_playcount, md_description">
-			<fontPath>./art/font1.ttf</fontPath>
+			<fontPath>./art/fontdos.ttf</fontPath>
 		</text>
 		<datetime name="md_releasedate, md_lastplayed">
-			<fontPath>./art/font1.ttf</fontPath>
+			<fontPath>./art/fontdos.ttf</fontPath>
 		</datetime>
 		
 	</view>
@@ -86,10 +98,10 @@ based on:		"Pixel" by Eric Hettervik
 			</image>
 
 		<text name="system_description" extra="true">
-			<pos>0.063 0.711</pos>
-			<size>0.876 0.198</size>
-			<color>ffffff</color>
-			<fontSize>0.018</fontSize>
+			<pos>0.025 0.711</pos>
+			<size>0.95 0.198</size>
+			<color>d5d5d5</color>
+			<fontSize>0.026</fontSize>
 			<alignment>center</alignment>
 			<forceUppercase>0</forceUppercase>
 		</text>
@@ -104,10 +116,10 @@ based on:		"Pixel" by Eric Hettervik
 
 		<textlist name="gamelist">
 			<selectorColor>00000088</selectorColor>
-			<selectedColor>ffffff</selectedColor>
-			<primaryColor>ffffff</primaryColor>
-			<secondaryColor>d5d5d5</secondaryColor>
-			<fontSize>0.02</fontSize>
+			<selectedColor>d5d5d5</selectedColor>
+			<primaryColor>d5d5d5</primaryColor>
+			<secondaryColor>d4c406</secondaryColor>
+			<fontSize>0.035</fontSize>
 		</textlist>
 
 		<image name="logo" extra="true">
@@ -186,8 +198,8 @@ based on:		"Pixel" by Eric Hettervik
 		<text name="md_lbl_players, md_players, md_genre, md_developer, md_publisher, md_playcount">
 			<forceUppercase>0</forceUppercase>
 			<lineSpacing>1</lineSpacing>
-			<fontSize>0.014</fontSize>
-			<color>ffffff</color>
+			<fontSize>0.027</fontSize>
+			<color>d5d5d5</color>
 			<alignment>center</alignment>
 			<size>0.180 0.05</size>
 		</text>
@@ -197,14 +209,14 @@ based on:		"Pixel" by Eric Hettervik
 
 		<datetime name="md_releasedate, md_lastplayed">
 			<forceUppercase>0</forceUppercase>
-			<fontSize>0.014</fontSize>
-			<color>ffffff</color>
+			<fontSize>0.027</fontSize>
+			<color>d5d5d5</color>
 		</datetime>
 
 			<text name="md_genre">
 				<pos>0.435 0.3</pos>
 				<size>0.180 0.065</size>
-				<fontSize>0.025</fontSize>
+				<fontSize>0.030</fontSize>
 			</text>
 
 			<datetime name="md_releasedate">
@@ -237,12 +249,12 @@ based on:		"Pixel" by Eric Hettervik
 				</image>
 
 		<text name="md_lbl_players">
-			<fontSize>0.018</fontSize>
+			<fontSize>0.035</fontSize>
 			<pos>0.020 0.7</pos>
 			<size>0.2 0.05</size>
 		</text>
 		<text name="md_players">
-			<fontSize>0.08</fontSize>
+			<fontSize>0.060</fontSize>
 			<pos>0.015 0.74</pos>
 			<size>0.2 0.18</size>
 		</text>
@@ -250,8 +262,8 @@ based on:		"Pixel" by Eric Hettervik
 		<text name="md_description">
 			<pos>0.33 0.71</pos>
 			<size>0.55 0.175</size>
-			<color>ffffff</color>
-			<fontSize>0.018</fontSize>
+			<color>d5d5d5</color>
+			<fontSize>0.028</fontSize>
 			<alignment>center</alignment>
 			<forceUppercase>0</forceUppercase>
 		</text>
@@ -261,8 +273,8 @@ based on:		"Pixel" by Eric Hettervik
 		</image>
 		
 		<helpsystem name="help">
-			<textColor>ffffffff</textColor>
-			<iconColor>ffffffff</iconColor>
+			<textColor>d5d5d5ff</textColor>
+			<iconColor>d5d5d5ff</iconColor>
 		</helpsystem>
 
 	</view>
@@ -289,7 +301,7 @@ based on:		"Pixel" by Eric Hettervik
 			<maxSize>0.325 0.430</maxSize>
 			<pos>0.815 0.435</pos>
 			<origin>0.5 0.5</origin>
-			<delay>2.0</delay>
+			<delay>2.75</delay>
 			<showSnapshotNoVideo>true</showSnapshotNoVideo>
 			<showSnapshotDelay>true</showSnapshotDelay>
 		</video>
