@@ -5,7 +5,7 @@
 	<view name="system, basic, detailed, video">
 
 		<image name="background">
-			<color>CD3333</color>
+			<color>9c1b1b</color>
 		</image>
 
 		<image name="logo">
@@ -21,11 +21,11 @@
 	<view name="system">
 
 		<image name="background" extra="true">
-			<color>CD3333</color>
+			<color>9c1b1b</color>
 		</image>
 
 		<text name="system_description" extra="true">
-			<text>The Master System is a third-generation video game console that was manufactured and released by Sega in 1985 in Japan, 1986 in North America and 1987 in Europe. The Master System was released as a direct competitor to the Nintendo Entertainment System in the third videogame generation The SMS was technically superior to the NES, which predated its release significantly, but failed to overturn Nintendo's significant market share advantage in Japan and North America.</text>
+			<text>The Mega-CD is an add-on device for the Mega Drive video game console. The device was also released in North America under the name Sega CD, for the Sega Genesis. The device adds a CD-ROM drive to the console, allowing the user to play CD-based games and providing additional hardware functionality. The Mega-CD was designed to compete with the PC Engine CD (TurboGrafx-16 CD) in Japan, which had a separate CD-ROM drive.</text>
 		</text>
 
 		<image name="screenshot_left" extra="true">
