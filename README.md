@@ -1,4 +1,4 @@
-# MetaPixel (DTWPID) v2023.03
+# MetaPixel (D00MED) v2023.03
 Theme for Emulationstation and RetroPie
 
 About
