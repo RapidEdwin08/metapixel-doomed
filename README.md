@@ -1,10 +1,10 @@
 # MetaPixel (D00MED) v2023.03
-Theme for Emulationstation and RetroPie
+![console.png](https://raw.githubusercontent.com/RapidEdwin08/es-theme-metapixel-doomed/master/ports/console.png )  
 
 About
 -----
 
-A Fork of mattrixk's metapixel with a additional tweaks and systems.  
+A Fork of mattrixk's metapixel Theme with a additional tweaks and systems.  
 Changes include Chicago95 Font + Extra Systems including MSU1, Wine, and more.  
 Pixel Art for PlayStation3, 3DS, Wii U made by *[precursormar]*.  
 mattrixk's metapixel theme was originally built on top of the great 'Pixel' theme by Eric Hettervik *[Rookervik]*.  
