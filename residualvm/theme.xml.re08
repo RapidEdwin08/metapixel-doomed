@@ -39,7 +39,7 @@
 	<view name="basic, detailed, video">
 
 		<textlist name="gamelist">
-			<selectorColor>ff0000</selectorColor>
+			<selectorColor>33abff</selectorColor>
 		</textlist>
 
 	</view>

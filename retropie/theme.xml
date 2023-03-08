@@ -5,7 +5,7 @@
 	<view name="system, basic, detailed, video">
 
 		<image name="background">
-			<color>636363</color>
+			<color>0c85c4</color>
 		</image>
 
 		<image name="logo">
@@ -21,13 +21,19 @@
 	<view name="system">
 
 		<image name="background" extra="true">
-			<color>636363</color>
+			<color>0c85c4</color>
 		</image>
 
 		<text name="system_description" extra="true">
 			<text>RetroPie Settings</text>
 		</text>
-
+		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.png</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.png</path>
+		</image>
 	</view>
 
 	<view name="basic, detailed, video">
@@ -47,7 +53,7 @@
 		</image>
 
 		<textlist name="gamelist">
-			<selectorColor>63636388</selectorColor>
+			<selectorColor>ff0000</selectorColor>
 			<size>0.26 0.615</size>
 		</textlist>
 
@@ -68,13 +74,13 @@
 			<origin>0 0</origin>
 		</image>
 
-		<image name="md_image">
+		<!-- <image name="md_image">
 			<maxSize>0.3 0.5</maxSize>
-		</image>
+		</image> -->
 
 		<text name="md_description">
-			<pos>0.025 0.78</pos>
-			<size>0.95 0.1</size>
+			<pos>0.025 0.70</pos>
+			<size>0.95 0.2</size>
 		</text>
 
 		<image name="border" extra="true">

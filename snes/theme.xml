@@ -38,7 +38,7 @@
 	</view>
 
 		<textlist name="gamelist">
-			<selectorColor>63B8FF88</selectorColor>
+			<selectorColor>ff0000</selectorColor>
 		</textlist>
 	
 </theme>
