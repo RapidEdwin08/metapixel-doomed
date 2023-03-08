@@ -5,7 +5,7 @@
 	<view name="system, basic, detailed, video">
 
 		<image name="background">
-			<color>018fba</color>
+			<color>00a0e8</color>
 		</image>
 
 		<image name="logo">
@@ -21,18 +21,18 @@
 	<view name="system">
 
 		<image name="background" extra="true">
-			<color>018fba</color>
+			<color>00a0e8</color>
 		</image>
 
 		<text name="system_description" extra="true">
-			<text>The Nintendo GameCube was the first Nintendo console to use optical discs as its primary storage medium. In contrast with the GameCube's contemporary competitors, Sony's PlayStation 2, Sega's Dreamcast and Microsoft's Xbox, the GameCube uses miniDVD-based discs instead of full-size DVDs. In addition, the GameCube introduced support for online play, via the Nintendo GameCube Broadband Adapter and Modem Adapter (sold separately).</text>
+			<text>Java 2 MicroEdition. Throughout the early 2000s. 32-bit color at 240x320 pixels (usually).</text>
 		</text>
 
 		<image name="screenshot_left" extra="true">
-			<path>./screenshot1.jpg</path>
+			<path>./screenshot1.png</path>
 		</image>
 		<image name="screenshot_right" extra="true">
-			<path>./screenshot2.jpg</path>
+			<path>./screenshot2.png</path>
 		</image>
 	</view>
 
