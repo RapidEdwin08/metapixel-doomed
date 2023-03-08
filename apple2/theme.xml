@@ -5,7 +5,7 @@
 	<view name="system, basic, detailed, video">
 
 		<image name="background">
-			<color>004688</color>
+			<color>ffebb3</color>
 		</image>
 
 		<image name="logo">
@@ -21,18 +21,18 @@
 	<view name="system">
 
 		<image name="background" extra="true">
-			<color>004688</color>
+			<color>ffebb3</color>
 		</image>
 
 		<text name="system_description" extra="true">
-			<text>The Arcade folder can be used as another MAME folder, possibly as a way of keeping 3 and 4-player games separate from the rest.</text>
+			<text>Apple II. First released in 1977. 320 x 200 pixels with 16 colors.</text>
 		</text>
 
 		<image name="screenshot_left" extra="true">
-			<path>./screenshot1.jpg</path>
+			<path>./screenshot1.png</path>
 		</image>
 		<image name="screenshot_right" extra="true">
-			<path>./screenshot2.jpg</path>
+			<path>./screenshot2.png</path>
 		</image>
 	</view>
 
