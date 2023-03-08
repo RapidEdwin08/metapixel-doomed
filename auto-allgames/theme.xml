@@ -5,7 +5,7 @@
 	<view name="system, basic, detailed, video">
 
 		<image name="background">
-			<color>d2b246</color>
+			<color>75C700</color>
 		</image>
 
 		<image name="logo">
@@ -21,11 +21,11 @@
 	<view name="system">
 
 		<image name="background" extra="true">
-			<color>d2b246</color>
+			<color>75C700</color>
 		</image>
 
 		<text name="system_description" extra="true">
-			<text>The Atari Jaguar was released by Atari Corporation in 1993. It was designed to surpass the Mega Drive/Genesis, SNES, and the 3DO in processing power. Although launched one year earlier, it was eventually in competition with the Sega Saturn, the Sony PlayStation, and other consoles that made up the fifth generation of video game consoles. Despite its commercial failure, the Jaguar has a dedicated fan base that produces homebrew games for it.</text>
+			<text>Press X for Random.</text>
 		</text>
 
 		<image name="screenshot_left" extra="true">

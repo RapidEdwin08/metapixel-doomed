@@ -5,7 +5,7 @@
 	<view name="system, basic, detailed, video">
 
 		<image name="background">
-			<color>7AFFD0</color>
+			<color>f6c1c1</color>
 		</image>
 
 		<image name="logo">
@@ -21,25 +21,25 @@
 	<view name="system">
 
 		<image name="background" extra="true">
-			<color>7AFFD0</color>
+			<color>f6c1c1</color>
 		</image>
 
 		<text name="system_description" extra="true">
-			<text>ColecoVision is a second generation home video game console created by Coleco Industries and released in 1982 . As a more advanced machine than its competitors, the Atari 2600 and Mattel's Intellivision, the ColecoVision offered a near arcade quality experience. To attract customers, Coleco not only outbid Atari and Mattel for the rights to recreate Nintendo's Donkey Kong but also created an Expansion Module that allowed its console to emulate Atari 2600 games. These steps skyrocketed ColecoVision's popularity, but the video game crash of 1983 caused sales to plummet, leading Coleco to exit the video game business in 1985. The console sold more than 2 million units worldwide.</text>
+			<text>Coleco Vision. 1982. 16 colors at 256×192 pixels.</text>
 		</text>
 
 		<image name="screenshot_left" extra="true">
-			<path>./screenshot1.jpg</path>
+			<path>./screenshot1.png</path>
 		</image>
 		<image name="screenshot_right" extra="true">
-			<path>./screenshot2.jpg</path>
+			<path>./screenshot2.png</path>
 		</image>
 	</view>
 
 	<view name="basic, detailed, video">
 
 		<textlist name="gamelist">
-			<selectorColor>7AFFD088</selectorColor>
+			<selectorColor>ff0000</selectorColor>
 		</textlist>
 
 	</view>
