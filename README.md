@@ -14,7 +14,8 @@ mattrixk's metapixel theme was originally built on top of the great 'Pixel' them
 mkdir /opt/retropie/configs/all/emulationstation/themes
 cd /opt/retropie/configs/all/emulationstation/themes
 git clone --depth 1 https://github.com/RapidEdwin08/metapixel-doomed.git
-cd ~	
+cd ~
+
 ```  
 
 ## To REMOVE metapixel-doomed:  
