@@ -1,6 +1,4 @@
 # MetaPixel (D00MED) v2023.03
-![screenshot1.jpg](https://raw.githubusercontent.com/RapidEdwin08/es-theme-metapixel-doomed/master/ports/screenshot1.jpg )
-![console.png](https://raw.githubusercontent.com/RapidEdwin08/es-theme-metapixel-doomed/master/ports/console.png )
 ![screenshot2.jpg](https://raw.githubusercontent.com/RapidEdwin08/es-theme-metapixel-doomed/master/auto-favorites/screenshot2.jpg )  
 
 About
@@ -13,7 +11,7 @@ mattrixk's metapixel theme was originally built on top of the great 'Pixel' them
 
 ## INSTALLATION
 ```bash
-mkdir /opt/retropie/configs/all/emulationstation/themes
+mkdir /opt/retropie/configs/all/emulationstation/themes > /dev/null 2>&1
 cd /opt/retropie/configs/all/emulationstation/themes
 git clone --depth 1 https://github.com/RapidEdwin08/metapixel-doomed.git
 cd ~
