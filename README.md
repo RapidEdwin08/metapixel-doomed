@@ -1,5 +1,7 @@
 # MetaPixel (D00MED) v2023.03
-![console.png](https://raw.githubusercontent.com/RapidEdwin08/es-theme-metapixel-doomed/master/ports/console.png )  
+![screenshot1.jpg](https://raw.githubusercontent.com/RapidEdwin08/es-theme-metapixel-doomed/master/ports/screenshot1.jpg )
+![console.png](https://raw.githubusercontent.com/RapidEdwin08/es-theme-metapixel-doomed/master/ports/console.png )
+![screenshot2.jpg](https://raw.githubusercontent.com/RapidEdwin08/es-theme-metapixel-doomed/master/auto-favorites/screenshot2.jpg )  
 
 About
 -----
