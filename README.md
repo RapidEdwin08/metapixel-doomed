@@ -6,7 +6,7 @@ About
 -----
 
 A Fork of mattrixk's metapixel Theme with additional tweaks and systems.  
-Changes include Chicago95 Font + Extra Systems including MSU1, Wine, and more.  
+Changes include Chicago95 Font + Extra Systems including OpenBOR, MSU1, Wine, and more.  
 Pixel Art for PlayStation3, 3DS, Wii U made by *[precursormar]*.  
 mattrixk's metapixel theme was originally built on top of the great 'Pixel' theme by Eric Hettervik *[Rookervik]*.  
 
