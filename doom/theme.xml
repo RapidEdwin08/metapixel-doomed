@@ -5,7 +5,7 @@
 	<view name="system, basic, detailed, video">
 
 		<image name="background">
-			<color>3A5FCD</color>
+			<color>5F4E31</color>
 		</image>
 
 		<image name="logo">
@@ -21,11 +21,11 @@
 	<view name="system">
 
 		<image name="background" extra="true">
-			<color>3A5FCD</color>
+			<color>5F4E31</color>
 		</image>
 
 		<text name="system_description" extra="true">
-			<text>D00M</text>
+			<text>Doom is a video game series and media franchise created by John Carmack, John Romero, Adrian Carmack, Kevin Cloud, and Tom Hall. The series usually focuses on the exploits of an unnamed space marine operating under the auspices of the Union Aerospace Corporation, who fights hordes of demons and the undead in order to save Earth from an apocalyptic invasion.</text>
 		</text>
 
 		<image name="screenshot_left" extra="true">
