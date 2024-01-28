@@ -1,0 +1,47 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>1d984a</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>1d984a</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>The Microsoft Xbox was released November 15, 2001. It was built around standard personal computer components using variations of Microsoft Windows and DirectX to support games and media playback.  It featured a 733 MHz Intel Pentium III CPU and a 233 MHz Nvidia GeForce 3-based NV2A GPU.  The Xbox was the first console to feature a built-in hard disk.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.png</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.png</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>ff0000</selectorColor>
+		</textlist>
+
+	</view>
+	
+</theme>
