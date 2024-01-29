@@ -5,7 +5,7 @@
 	<view name="system, basic, detailed, video">
 
 		<image name="background">
-			<color>138FDA</color>
+			<color>00d5ff</color>
 		</image>
 
 		<image name="logo">
@@ -21,7 +21,7 @@
 	<view name="system">
 
 		<image name="background" extra="true">
-			<color>138FDA</color>
+			<color>00d5ff</color>
 		</image>
 
 		<text name="system_description" extra="true">
