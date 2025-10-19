@@ -301,7 +301,7 @@ based on:		"Pixel" by Eric Hettervik
 			<maxSize>0.325 0.430</maxSize>
 			<pos>0.815 0.435</pos>
 			<origin>0.5 0.5</origin>
-			<delay>2.75</delay>
+			<delay>3.25</delay>
 			<showSnapshotNoVideo>true</showSnapshotNoVideo>
 			<showSnapshotDelay>true</showSnapshotDelay>
 		</video>
