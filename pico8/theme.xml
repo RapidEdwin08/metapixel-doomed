@@ -1,0 +1,47 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>7DC4ff</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>7DC4ff</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>Pico-8 is a platform for creating and sharing small computer games and programs that mimic the limited audio-visual capabilities of 8-bit systems from the 1980s. It runs on various devices and supports Lua programming, graphics, sound, music, and cartridges.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>ff0000</selectorColor>
+		</textlist>
+
+	</view>
+	
+</theme>
