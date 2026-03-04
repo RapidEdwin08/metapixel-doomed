@@ -1,0 +1,49 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>636363</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>636363</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>The TI-83 is a Series of Graphing Calculators produced by Texas Instruments.
+The TI-83 was first Released in 1996 as the successor to the TI-82, followed by TI-83 Plus in 1999.
+The TI-83 ran a Zilog Z80 microprocessor at 6MHz with a 96×64 monochrome LCD screen powered by 4 AAA batteries.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>ff0000</selectorColor>
+		</textlist>
+
+	</view>
+	
+</theme>
