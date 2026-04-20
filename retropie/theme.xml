@@ -39,7 +39,7 @@
 	<view name="basic, detailed, video">
 
 		<image name="background">
-			<path>./../art/bg_simple.png</path>
+			<path>./../_inc/art/bg_simple.png</path>
 		</image>
 
 		<image name="logo" extra="true">
@@ -84,7 +84,7 @@
 		</text>
 
 		<image name="border" extra="true">
-			<path>./../art/border_settings.png</path>
+			<path>./../_inc/art/border_settings.png</path>
 		</image>
 
 	</view>
