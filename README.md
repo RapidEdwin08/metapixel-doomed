@@ -23,6 +23,7 @@ cd ~
 ```bash
 cd ~ #Change to Home Directory
 rm /opt/retropie/configs/all/emulationstation/themes/metapixel-doomed -R -f #ALWAYS PROCEED WITH CAUTION USING rm .. -R -f
+
 ```
 
 ***SOURCES:***  
