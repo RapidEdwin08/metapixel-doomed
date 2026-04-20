@@ -26,7 +26,7 @@ based on:		"Pixel" by Eric Hettervik
 			<size>0 1</size>
 			<pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>
-			<path>./art/bg_simple.png</path>
+			<path>./_inc/art/bg_simple.png</path>
 		</image>
 
 		<image name="console" extra="true">
@@ -61,19 +61,19 @@ based on:		"Pixel" by Eric Hettervik
 			fontdos.ttf - Chicago95 Font
 		-->
 		<helpsystem name="help">
-			<fontPath>./art/fontdos.ttf</fontPath>
+			<fontPath>./_inc/font/fontdos.ttf</fontPath>
 		</helpsystem>
 		<text name="system_description" extra="true">
-			<fontPath>./art/fontdos.ttf</fontPath>
+			<fontPath>./_inc/font/fontdos.ttf</fontPath>
 		</text>
 		<textlist name="gamelist">
-			<fontPath>./art/fontdos.ttf</fontPath>
+			<fontPath>./_inc/font/fontdos.ttf</fontPath>
 		</textlist>
 		<text name="md_lbl_players, md_players, md_genre, md_developer, md_publisher, md_playcount, md_description">
-			<fontPath>./art/fontdos.ttf</fontPath>
+			<fontPath>./_inc/font/fontdos.ttf</fontPath>
 		</text>
 		<datetime name="md_releasedate, md_lastplayed">
-			<fontPath>./art/fontdos.ttf</fontPath>
+			<fontPath>./_inc/font/fontdos.ttf</fontPath>
 		</datetime>
 		
 	</view>
@@ -107,7 +107,7 @@ based on:		"Pixel" by Eric Hettervik
 		</text>
 
 		<image name="border" extra="true">
-			<path>./art/border_system.png</path>
+			<path>./_inc/art/border_system.png</path>
 		</image>
 
 	</view>
@@ -151,7 +151,7 @@ based on:		"Pixel" by Eric Hettervik
 		</image>
 
 		<image name="border" extra="true">
-			<path>./art/border_simple.png</path>
+			<path>./_inc/art/border_simple.png</path>
 		</image>
 
 	</view>
@@ -164,7 +164,7 @@ based on:		"Pixel" by Eric Hettervik
 			<origin>0 0</origin>
 			<size>1 1</size>
 			<color>7b7b7b</color>
-			<path>./art/bg_detailed.png</path>
+			<path>./_inc/art/bg_detailed.png</path>
 		</image>
 
 		<textlist name="gamelist">
@@ -191,8 +191,8 @@ based on:		"Pixel" by Eric Hettervik
 		<rating name="md_rating">
 			<pos>0.483 0.24</pos>
 			<size>0.156 0.03</size>
-			<filledPath>./art/star_full.png</filledPath>
-			<unfilledPath>./art/star_hollow.png</unfilledPath>
+			<filledPath>./_inc/art/star_full.png</filledPath>
+			<unfilledPath>./_inc/art/star_hollow.png</unfilledPath>
 		</rating>
 
 		<text name="md_lbl_players, md_players, md_genre, md_developer, md_publisher, md_playcount">
@@ -237,15 +237,15 @@ based on:		"Pixel" by Eric Hettervik
 			</image>
 				<image name="md_favorite">
 					<pos>0.470 0.620</pos>
-					<path>./art/icon_favourite.svg</path>
+					<path>./_inc/art/icon_favourite.svg</path>
 				</image>
 				<image name="md_kidgame">
 					<pos>0.525 0.620</pos>
-					<path>./art/icon_kid.svg</path>
+					<path>./_inc/art/icon_kid.svg</path>
 				</image>
 				<image name="md_hidden">
 					<pos>0.580 0.620</pos>
-					<path>./art/icon_hidden.svg</path>
+					<path>./_inc/art/icon_hidden.svg</path>
 				</image>
 
 		<text name="md_lbl_players">
@@ -269,7 +269,7 @@ based on:		"Pixel" by Eric Hettervik
 		</text>
 	
 		<image name="border" extra="true">
-			<path>./art/border_detailed.png</path>
+			<path>./_inc/art/border_detailed.png</path>
 		</image>
 		
 		<helpsystem name="help">
@@ -307,5 +307,36 @@ based on:		"Pixel" by Eric Hettervik
 		</video>
 		
 	</view>
-	
+<!--<feature supported="navigationsounds"> -->
+	<view name="all">
+
+		<sound name="scroll">
+			<path>./_inc/audio/scroll.wav</path>
+		</sound>
+
+		<sound name="select">
+			<path>./_inc/audio/select.wav</path>
+		</sound>
+
+		<sound name="back">
+			<path>./_inc/audio/back.wav</path>
+		</sound>
+
+		<sound name="launch">
+			<path>./_inc/audio/launch.wav</path>
+		</sound>
+
+		<sound name="favorite">
+			<path>./_inc/audio/favorite.wav</path>
+		</sound>
+
+		<sound name="systembrowse">
+			<path>./_inc/audio/systembrowse.wav</path>
+		</sound>
+
+		<sound name="quicksysselect">
+			<path>./_inc/audio/quicksysselect.wav</path>
+		</sound>
+
+	</view>
 </theme>
