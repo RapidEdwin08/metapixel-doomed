@@ -1,0 +1,47 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>8D3A05</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>8D3A05</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>BennuGD (Bennu Game Development) is a high-level open-source video game development suite, originally created as a Fenix Project fork by Argentinian hacker SpliterGU. BennuGD focuses on modularity and portability and makes it easy for both beginners and experienced users to create their own games. It is officially supported for Windows, Linux, GP2X Wiz, GP2X Caanoo and Dingux, but can also be run on multiple other platforms, including FreeBSD, Mac OS X, iOS, and consoles such as GP2X, Dingoo A320, Wii, Sega Dreamcast and PlayStation 2.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>ff0000</selectorColor>
+		</textlist>
+
+	</view>
+	
+</theme>
